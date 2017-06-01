@@ -8,7 +8,7 @@ function overallTeamViz(incomingData){
 	.append("g")
 	.attr("id","teamsG")
 	.attr("transform","translate(50,300)")
-	.selectAll("g)
+	.selectAll("g")
 	.data(incomingData)
 	.enter()
 	.append("g")
