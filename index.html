@@ -11,7 +11,7 @@
 	<script>
 		var w = 800;
 		var h = 450;
-		var data = [132,71,230,98,34,321];
+		var data = [132,71,230,98,34,21,54,23,98];
 		var svg = d3.select("body").append("svg")
 			.attr("id","chart")
 			.attr("width",w)
@@ -28,9 +28,7 @@
 				.attr("width",function(d,i){
 					return d;	
 					})
-				.attr("height",function(d,i){
-					return 19;	
-					})
+				.attr("height",19)
 	</script>
 </body>
 </html>
